@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     floatWindow.innerHTML = '对话保存';
 
     // 设置 div 的样式
-    floatWindow.style.cssText = 'position: fixed; bottom: 10px; right: 10px; padding: 5px 10px; background-color: #007bff; color: #fff; cursor: pointer; border-radius: 10px; z-index: 99999;';
+    floatWindow.style.cssText = 'position: fixed; top: 50px; right: 10px; padding: 5px 10px; background-color: #007bff; color: #fff; cursor: pointer; border-radius: 10px; z-index: 99999;';
 
     var isDragging = false;
     var currentX;
@@ -193,4 +193,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 将悬浮窗添加到 body 元素中
     document.body.appendChild(floatWindow);
-})();
+});
